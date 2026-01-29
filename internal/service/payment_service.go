@@ -211,7 +211,7 @@ func (s *PaymentService) getStat(key string) int64 {
 func (s *PaymentService) addAmount(amount float64) {
 	value, _ := s.stats.LoadOrStore("total_amount", float64(0))
 	current := value.(float64)
-	s.stats.Store("total_amount", current)
+	s.stats.Store("total_amount", current+amount)
 }
 
 func (s *PaymentService) subtractAmount(amount float64) {
