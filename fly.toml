@@ -1,4 +1,3 @@
-=== FILE: fly.toml ===
 app = "payment-concurrency-api"
 primary_region = "sin"
 
