@@ -1,5 +1,5 @@
 === FILE: fly.toml ===
-app = "your-payment-api"
+app = "payment-concurrency-api"
 primary_region = "sin"
 
 [build]
