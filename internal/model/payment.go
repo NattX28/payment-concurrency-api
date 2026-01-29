@@ -47,7 +47,7 @@ type PaymentResponse struct {
 }
 
 type PaymentStats struct {
-	TotalPayment       int64   `json:"total_payments"`
+	TotalPayments      int64   `json:"total_payments"`
 	PendingPayments    int64   `json:"pending_payments"`
 	ProcessingPayments int64   `json:"processing_payments"`
 	CompletedPayments  int64   `json:"completed_payments"`

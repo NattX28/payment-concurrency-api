@@ -133,7 +133,7 @@ func (s *PaymentService) GetPayment(paymentID string) (*model.Payment, error) {
 
 func (s *PaymentService) GetStats() model.PaymentStats {
 	return model.PaymentStats{
-		TotalPayment:       s.getStat("total"),
+		TotalPayments:      s.getStat("total"),
 		PendingPayments:    s.getStat("pending"),
 		ProcessingPayments: s.getStat("processing"),
 		CompletedPayments:  s.getStat("completed"),
