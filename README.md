@@ -5,7 +5,7 @@
 
 # 💳 Payment Processing API
 
-Payment API showcasing Go concurrency patterns for Fintech applications.
+Payment API showcasing Go concurrency patterns.
 
 **Live Demo:** `https://payment-concurrency-api.fly.dev/health`
 
