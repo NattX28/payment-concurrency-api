@@ -7,7 +7,7 @@
 
 Payment API showcasing Go concurrency patterns.
 
-**Live Demo:** `https://payment-concurrency-api.fly.dev/health`
+**Demo:** [https://payment-concurrency-api.fly.dev/health](https://payment-concurrency-api.fly.dev/health)
 
 ---
 
